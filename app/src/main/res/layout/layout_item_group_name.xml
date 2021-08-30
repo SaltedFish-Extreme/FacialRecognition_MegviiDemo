@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.myapplication.util.XTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_group_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:drawableEnd="@android:drawable/ic_delete"
+    android:gravity="center"
+    android:padding="@dimen/dp_10"
+    android:text="@string/Group_Name"
+    android:textSize="@dimen/sp_30" />

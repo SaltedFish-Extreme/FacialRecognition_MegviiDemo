@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">   <!-- 按钮未点击-->
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp" /> <!-- 边框颜色，边框大小-->
+            <padding android:bottom="@dimen/dp_2" android:left="@dimen/dp_2" android:right="@dimen/dp_2" android:top="@dimen/dp_2" /> <!-- 填充的颜色：这里设置背景透明 -->
+            <solid android:color="@color/Fully_transparent" /> <!-- android:radius 弧形的半径 -->
+            <stroke android:width="@dimen/dp_2" android:color="@color/darkgrey" />
+        </shape>
+    </item>
+
+    <item android:state_pressed="true">  <!-- 按钮选中状态-->
+        <shape android:shape="rectangle">
+            <corners android:radius="5dp" /> <!-- 边框颜色，边框大小-->
+            <padding android:bottom="@dimen/dp_2" android:left="@dimen/dp_2" android:right="@dimen/dp_2" android:top="@dimen/dp_2" /> <!-- 填充的颜色：这里设置背景透明 -->
+            <solid android:color="@color/Fully_transparent" /> <!-- android:radius 弧形的半径 -->
+            <stroke android:width="@dimen/dp_2" android:color="@color/darkred" />
+        </shape>
+    </item>
+</selector>

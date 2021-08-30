@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:paddingEnd="6dp"
+    android:paddingStart="6dp">
+    <!--跑马灯效果
+        singleLine
+        ellipsize
+        focusable
+        focusableInTouchMode-->
+    <TextView
+        android:id="@+id/tv_face_token"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        android:layout_weight="1"
+        android:ellipsize="marquee"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:longClickable="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:text="@string/BigNum"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/sp_25" />
+
+    <TextView
+        android:id="@+id/tv_face_unbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_5"
+        android:background="@drawable/button_selector"
+        android:text="@string/UnBind"
+        android:textSize="@dimen/sp_25" />
+
+</LinearLayout>

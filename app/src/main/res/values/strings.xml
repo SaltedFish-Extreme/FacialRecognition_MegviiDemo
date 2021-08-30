@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">MyApplication</string>
+    <!--FileProvider路径-->
+    <string name="FileProvider">com.example.myapplication.fileprovider</string>
+    <!--初始化页面-->
+    <string name="NeedPermissions">请先开启权限</string>
+    <string name="CertFile_Error">认证文件错误</string>
+    <string name="Updating">更新中……</string>
+    <string name="Update_Success">更新完成</string>
+    <string name="Update_Fail">更新失败，错误代码为：%d，错误信息为：%s</string>
+    <!--主页-->
+    <string name="FacePassHandlerIsNull">人脸识别处理程序未初始化完成！</string>
+    <string name="Group_Title">底库操作</string>
+    <string name="Set_Group_Name">请输入底库名称</string>
+    <string name="Create_Group">创建底库</string>
+    <string name="Get_Group_Name">获取所有底库</string>
+    <string name="Group_Name">底库名</string>
+    <string name="GroupIsNull">底库为空！</string>
+    <string name="InputGroupName">请输入底库名！</string>
+    <string name="Delete_Success">删除成功！</string>
+    <string name="Delete_Fail">删除失败！</string>
+    <string name="Verified_Successfully">验证成功</string>
+    <string name="Verification_Failed">验证失败</string>
+    <string name="Recognized_Successfully">识别成功！</string>
+    <string name="Recognized_Failed">识别失败！</string>
+    <string name="ID">ID =&#160;</string>
+    <string name="Identification_Score">识别分 =&#160;</string>
+    <string name="Live_Score">活体分 =&#160;</string>
+    <string name="Spin">旋转：</string>
+    <string name="Seesaw">上下：</string>
+    <string name="Around">左右：</string>
+    <string name="Blur">模糊：</string>
+    <string name="Exit_APP">再按一次退出程序</string>
+    <string name="Face_Title">录脸</string>
+    <string name="Choose_Pictures">选择图片</string>
+    <string name="Add_Face">添加人脸</string>
+    <string name="Input_Path">在此处输入图片路径</string>
+    <string name="Show_Pictures">显示人脸</string>
+    <string name="Get_Pictures">获取详情</string>
+    <string name="Delete_Pictures">删除人脸</string>
+    <string name="Face_Token">生成的人脸唯一标识</string>
+    <string name="Bind_GroupName">输入要绑定的底库名</string>
+    <string name="Bind">绑定</string>
+    <string name="UnBind">解绑</string>
+    <string name="Success">成功</string>
+    <string name="Fail">失败</string>
+    <string name="Error">错误</string>
+    <string name="number">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="BigNum">12345678901234567890123456789012345678901234567890</string>
+    <string name="No_Image_Path">请输入图片路径！</string>
+    <string name="No_Picture">图片不存在！</string>
+    <string name="Add_Face_Success">添加人脸成功！</string>
+    <string name="No_Face">没有识别到人脸！</string>
+    <string name="Quality_Inspection_Fail">人脸质量检测不通过！</string>
+    <string name="UnknownMistake">未知错误！</string>
+    <string name="Add_Face_First">请输入人脸唯一标识！</string>
+    <string name="Bind_Success">绑定成功</string>
+    <string name="Bind_Fail">绑定失败</string>
+    <string name="Get_Group_Error">获取底库信息错误！</string>
+</resources>

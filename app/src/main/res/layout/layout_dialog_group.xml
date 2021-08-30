@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/dp_600"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_close"
+            style="@style/DialogClose"
+            android:layout_alignEnd="@id/bottomlayer_library_title"
+            android:contentDescription="@null" />
+
+        <TextView
+            android:id="@+id/bottomlayer_library_title"
+            style="@style/DialogTitle"
+            android:text="@string/Group_Title"
+            android:textColor="@color/sandybrown" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_2"
+        android:background="@android:color/darker_gray" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_group_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/dp_5"
+            android:layout_marginStart="@dimen/dp_10"
+            android:layout_weight="1"
+            android:digits="@string/number"
+            android:hint="@string/Set_Group_Name"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:maxLength="15"
+            android:paddingEnd="@dimen/dp_15"
+            android:paddingStart="@dimen/dp_15"
+            android:textColorHint="@color/tomato"
+            android:textSize="@dimen/sp_20" />
+
+        <Button
+            android:id="@+id/btn_submit"
+            style="@style/DialogButton"
+            android:layout_marginEnd="@dimen/dp_10"
+            android:text="@string/Create_Group"
+            android:textColor="@color/royalblue" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_obtain_groups"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/dp_10"
+        android:background="@drawable/btn_nor_down"
+        android:text="@string/Get_Group_Name"
+        android:textColor="@color/violet"
+        android:textSize="@dimen/sp_20" />
+
+    <ListView
+        android:id="@+id/lv_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/dp_400" />
+
+</LinearLayout>
